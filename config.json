@@ -1,0 +1,16 @@
+{
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "llm_model": "llama3-8b-8192",
+  "temperature": 0.1,
+  "max_tokens": 2048,
+  "retrieval_k": 6,
+  "fetch_k": 10,
+  "index_name": "research_assistant_index",
+  "reranker_enabled": false,
+  "document_storage_dir": "document_sets",
+  "logging_level": "INFO",
+  "max_document_size_mb": 50,
+  "supported_file_types": [".txt", ".md", ".pdf", ".docx", ".html", ".xml"]
+}
