@@ -1,3 +1,6 @@
+
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20Demo-brightgreen?logo=streamlit)](https://ai-research-assistant-rag.streamlit.app/)
+
 # 🤖 AI Research Assistant (RAG)
 
 A comprehensive Retrieval-Augmented Generation (RAG) system built with **LangChain** that combines Large Language Models (LLMs) with external knowledge sources to provide accurate, context-aware answers for research-related questions.

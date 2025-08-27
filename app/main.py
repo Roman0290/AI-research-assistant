@@ -7,6 +7,13 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
+
+try:
+    GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+except KeyError:
+    GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+
+
 # Add project root to Python path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
