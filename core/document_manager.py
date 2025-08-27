@@ -1,7 +1,8 @@
 # Document management module for handling multiple document sets
 from typing import Dict, List, Optional, Any
 from langchain.schema import Document
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS  
+
 import logging
 import os
 import json

@@ -5,6 +5,13 @@ from typing import Dict, Any, Optional, List
 from datetime import datetime
 import json
 
+# Ensure .env variables are loaded when helpers are imported
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 # Set up logging
 logger = logging.getLogger(__name__)
 

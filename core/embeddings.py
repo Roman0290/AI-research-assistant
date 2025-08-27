@@ -1,5 +1,6 @@
 # Embedding model setup
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
+
 from typing import Optional
 import logging
 

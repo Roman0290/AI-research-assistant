@@ -1,8 +1,14 @@
 import streamlit as st
-import os
 import logging
 from typing import List, Dict, Any
 import tempfile
+import sys
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+# Add project root to Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 # Import core modules
 from core.ingestion import (
