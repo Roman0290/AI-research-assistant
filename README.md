@@ -61,7 +61,7 @@ A comprehensive Retrieval-Augmented Generation (RAG) system built with **LangCha
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/AI-research-assistant.git
+git clone https://github.com/Roman0290/AI-research-assistant.git
 cd AI-research-assistant
 ```
 
@@ -229,12 +229,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/your-username/AI-research-assistant/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/AI-research-assistant-rag/discussions)
-- **Documentation**: [Wiki](https://github.com/your-username/AI-research-assistant/wiki)
+- **Issues**: [GitHub Issues](https://github.com/Roman0290/AI-research-assistant/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Roman0290/AI-research-assistant/discussions)
+- **Documentation**: [Wiki](https://github.com/Roman0290/AI-research-assistant/wiki)
 
 ---
 
-**Made with ❤️ by the AI Research Assistant Team**
 
 *Empowering researchers with intelligent document analysis and knowledge discovery.*
