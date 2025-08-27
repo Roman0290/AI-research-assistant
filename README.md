@@ -207,34 +207,12 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 ```
 
-## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-### Development Setup
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- **LangChain**: For the excellent RAG framework
-- **Groq**: For high-performance LLM access
-- **FAISS**: For efficient vector similarity search
-- **Streamlit**: For the beautiful web interface
-- **Open Source Community**: For the amazing tools and libraries
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/Roman0290/AI-research-assistant/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/Roman0290/AI-research-assistant/discussions)
-- **Documentation**: [Wiki](https://github.com/Roman0290/AI-research-assistant/wiki)
 
 ---
 
