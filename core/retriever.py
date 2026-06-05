@@ -1,6 +1,6 @@
 # Vector store and retrieval logic
 from langchain_community.vectorstores import FAISS
-from langchain.schema import Document
+from langchain_core.documents import Document
 from typing import List, Dict, Any, Optional
 import logging
 import os

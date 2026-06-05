@@ -1,6 +1,6 @@
 # Reranker module for improving retrieval quality
 from typing import List, Tuple, Dict, Any
-from langchain.schema import Document
+from langchain_core.documents import Document
 import logging
 
 # Set up logging
