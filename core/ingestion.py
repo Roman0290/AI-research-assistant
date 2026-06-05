@@ -1,9 +1,13 @@
 # Handles document loading and chunking
 
 from langchain_community.document_loaders import ArxivLoader, WikipediaLoader, WebBaseLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
 from typing import List, Optional
 import logging
+
+try:
+    from langchain_text_splitters import RecursiveCharacterTextSplitter
+except ImportError:  # Backward compatibility for older LangChain installs
+    from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)

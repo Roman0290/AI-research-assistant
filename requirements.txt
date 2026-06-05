@@ -5,6 +5,7 @@ langchain-community>=0.0.10
 langchain-core>=0.1.0
 langchain-groq>=0.0.1
 langchain-huggingface
+langchain-text-splitters
 
 # Vector store and embeddings
 faiss-cpu>=1.7.4
